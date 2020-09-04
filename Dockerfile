@@ -5,5 +5,5 @@ RUN apt-get update
 RUN apt-get install -y wget git
 
 RUN pip install -U pip
-RUN pip install flake8 jedi tensorboard jupyterlab gpytorch matplotlib
-# install tensorboardX to /tmp for hparams in tensorboardX
+RUN pip install flake8 jedi tensorboard jupyterlab gpytorch matplotlib ipywidgets
+RUN jupyter nbextension enable --py widgetsnbextension

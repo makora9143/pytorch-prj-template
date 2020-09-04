@@ -30,7 +30,8 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"ms-python.python",
-		"eamodio.gitlens"
+		"eamodio.gitlens",
+		"ms-python.vscode-pylance",
 	],
 	"shutdownAction": "none"
 }
